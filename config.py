@@ -1,6 +1,6 @@
 # config.py
 
-MODEL_DIR_BERT = "Asabesyj/lagos-flood-bert"
+MODEL_DIR_BERT = "asabeysj/lagos-flood-bert"
 SVM_MODEL_PATH = "./svm_pipeline.pkl"
 DATA_PATH = "./synthetic_lagos_floods.csv"
 
