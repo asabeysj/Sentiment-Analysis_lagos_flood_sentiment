@@ -94,7 +94,7 @@ def load_svm_model(path="svm_pipeline.pkl"):
     return joblib.load(path)
 
 @st.cache_resource
-def load_transformer_model(model_dir="./bert_lagos_model"):
+def load_transformer_model(model_dir="asabeysj/lagos-flood-bert"):
     tokenizer = AutoTokenizer.from_pretrained(model_dir)
     model = AutoModelForSequenceClassification.from_pretrained(model_dir)
     return tokenizer, model
